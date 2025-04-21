@@ -1,0 +1,117 @@
+.skills-container {
+  padding: 40px;
+  background-color: #1e1e2f;
+  color: white;
+  min-height: 100vh;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fbb034;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-category {
+  background-color: #2b2b3d;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.skill-category h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.skill-category h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #fbb034;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px; 
+}
+
+.skill-icons img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.skill-icons img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.skill-icons img[alt="Java"],
+.skill-icons img[alt="C++"],
+.skill-icons img[alt="PHP"],
+.skill-icons img[alt="MySQL"],
+.skill-icons img[alt="MongoDB"] {
+  background-color: transparent;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  .skills-section {
+    max-width: 1200px;
+  }
+  .skill-icons {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 25px;
+  }
+  .skill-icons {
+    gap: 30px;
+  }
+  .skill-icons img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-icons {
+    gap: 20px;
+  }
+  .skill-icons img {
+    width: 70px;
+    height: 70px;
+  }
+  .skill-category h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
