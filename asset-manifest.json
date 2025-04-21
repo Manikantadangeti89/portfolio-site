@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.1111465b.css",
+    "main.js": "/portfolio-site/static/js/main.bd821ba0.js",
+    "static/media/MyImageGibli.png": "/portfolio-site/static/media/MyImageGibli.aed677a83afeea1cda79.png",
+    "static/media/home1.png": "/portfolio-site/static/media/home1.59dfc350b6bb50db0dfe.png",
+    "static/media/HTMLCSSJS.png": "/portfolio-site/static/media/HTMLCSSJS.f3fd649883c0f2f3d241.png",
+    "static/media/PHP.png": "/portfolio-site/static/media/PHP.e8fa80096ec5db32b99d.png",
+    "static/media/LeetCode_100days.png": "/portfolio-site/static/media/LeetCode_100days.f2f6ba07ad7353555cc6.png",
+    "static/media/Nodejs.png": "/portfolio-site/static/media/Nodejs.7f6feb2ae5fa37a0f592.png",
+    "static/media/CloudComputing.png": "/portfolio-site/static/media/CloudComputing.7ebcf827479f47d83b1b.png",
+    "static/media/JavaScript.png": "/portfolio-site/static/media/JavaScript.b35b06ee43eccfec3018.png",
+    "static/media/CodeChefBadge50days.png": "/portfolio-site/static/media/CodeChefBadge50days.8d2096b53fd57b4d58f6.png",
+    "static/media/express.png": "/portfolio-site/static/media/express.2e461f017dc930af9f03.png",
+    "static/media/findUrNest2.jpg": "/portfolio-site/static/media/findUrNest2.51259b194ef4b1308120.jpg",
+    "static/media/DSA.png": "/portfolio-site/static/media/DSA.9fd2a5e5d53086b0ff0d.png",
+    "static/media/momsnote.avif": "/portfolio-site/static/media/momsnote.2f25e1dcc7fdbf3cf37b.avif",
+    "static/media/php.svg": "/portfolio-site/static/media/php.9bda152757b9aea3390f112efdc4bdb8.svg",
+    "static/media/cpp.jpg": "/portfolio-site/static/media/cpp.ea213141502a0aedf050.jpg",
+    "static/media/java.jpg": "/portfolio-site/static/media/java.0e28726a22ec88788fb6.jpg",
+    "static/media/css.png": "/portfolio-site/static/media/css.3f479584350aaf688826.png",
+    "static/media/nodejs.jpg": "/portfolio-site/static/media/nodejs.d775af3e252d7fa60b00.jpg",
+    "static/media/bdms1.jpg": "/portfolio-site/static/media/bdms1.989488308ffbe1715ddb.jpg",
+    "static/media/mongodb.png": "/portfolio-site/static/media/mongodb.495096f3c71200bb00ac.png",
+    "index.html": "/portfolio-site/index.html",
+    "main.1111465b.css.map": "/portfolio-site/static/css/main.1111465b.css.map",
+    "main.bd821ba0.js.map": "/portfolio-site/static/js/main.bd821ba0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1111465b.css",
+    "static/js/main.bd821ba0.js"
+  ]
+}
