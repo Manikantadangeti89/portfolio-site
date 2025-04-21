@@ -8,7 +8,7 @@ const Resume = () => {
 
       <div className="section-header">
         <h2 className="section-title">Education</h2>
-        <a href="/Manikanta_Dangeti.pdf" download className="download-btn">
+        <a href={`${process.env.PUBLIC_URL}/Manikanta_Dangeti.pdf`} download className="download-btn">
           Download CV
         </a>
       </div>
