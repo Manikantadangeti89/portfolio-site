@@ -1,32 +1,32 @@
 import React from "react";
 import "../styles/Certifications.css";
+import Board_Inf from "../assets/certifications/Board_Inf.jpg";
+import NPTEL from "../assets/certifications/NPTEL.png";
+import IBM_Devops from "../assets/certifications/IBM_Devops.png";
+import HackerRank from "../assets/certifications/HackerRank.png";
 import HTMLCSSJS from "../assets/certifications/HTMLCSSJS.png";
-import Nodejs from "../assets/certifications/Nodejs.png";
-import PHP from "../assets/certifications/PHP.png";
-import DSA from "../assets/certifications/DSA.png";
-import CloudComputing from "../assets/certifications/CloudComputing.png";
 
 const Certifications = () => {
   const certificates = [
     {
-      image: HTMLCSSJS,
-      name: "HTML, CSS, and Javascript for Web Developers - Coursera",
+      image: Board_Inf,
+      name: "Core And Advance Java - Board_Infinity",
     },
     {
-      image: Nodejs,
-      name: "Server side JavaScript with Node.js - Coursera",
-    },
-    {
-      image: PHP,
-      name: "Building Web Applications in PHP - Coursera",
-    },
-    {
-      image: CloudComputing,
+      image: NPTEL,
       name: "Cloud Computing - NPTEL",
     },
     {
-      image: DSA,
-      name: "LPU - Data Structures: Deep Dive Using C - E-Box",
+      image: IBM_Devops,
+      name: "IBM DevOps and Software Engineering - Coursera",
+    },
+    {
+      image: HackerRank,
+      name: "Problem Solving - HackerRank",
+    },
+    {
+      image: HTMLCSSJS,
+      name: "HTML, CSS, and JavaScript for Web Developers - Coursera",
     },
   ];
 

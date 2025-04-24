@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Projects.css";
-import momNoteImg from '../assets/images/momsnote.avif';
-import bloodImg from '../assets/images/bdms1.jpg';
-import rentalImg from '../assets/images/findUrNest2.jpg';
+import DocSwitch from '../assets/images/DocSwitch.png';
+import Artistry from '../assets/images/Artistry.jpg';
+import TripNest from '../assets/images/TripNest.png';
 
 const Projects = () => {
   return (
@@ -10,73 +10,58 @@ const Projects = () => {
       <h1 className="projects-heading">Projects</h1>
 
       <div className="project-card">
-        <h2 className="project-title">Mom's Note – Recipe Sharing Website</h2>
+        <h2 className="project-title">DocSwitch - A solution for every document conversion</h2>
         <div className="project-content">
           <div className="project-description">
             <p>
-              A feature-rich recipe sharing platform designed for food lovers to explore, upload, and save their favorite recipes.
-              Users can browse trending recipes from an external API as well as community-submitted ones stored in a MongoDB database.
-              It offers a sleek UI with filtering, search functionality, and real-time form validation for submissions.
-              The design mimics a mom’s guidance, offering helpful cooking notes and tips throughout.
-              Responsive and mobile-friendly with React routing, reusable components, and state management.
-              Built using MERN stack with integration of the Spoonacular API for added variety.
+            DocSwitch is an MERN based document conversion platform that streamlines file format transformations with ease. Built using a modern tech stack, it leverages powerful third-party APIs like CloudConvert, iLovePDF, and Adobe PDF Services to support seamless conversion between PDF, Word, Excel, and more. The system automates backend processing and integrates with a responsive frontend for real-time interaction. It's designed for efficiency, reliability, and versatility in handling various document formats across platforms.for added variety.
             </p>
-            <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, Spoonacular API</p>
+            <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, ILOVE_API, Adobe PDF Services API, Cloud_Convert API</p>
             <div className="project-buttons">
-              <a href="https://github.com/Manikantadangeti89/Mom-s-Note---Recipe-Sharing" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
-              <a href="https://manikantadangeti89.github.io/Mom-s-Note---Recipe-Sharing/" target="_blank" rel="noopener noreferrer" className="btn">View Live</a>
+              <a href="https://github.com/Gopi-Kumar18/DocSwitch/" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer" className="btn">View Live</a>
             </div>
           </div>
           <div className="project-image">
-            <img src={momNoteImg} alt="Mom's Note" />
+            <img src={DocSwitch} alt="DocSwitch file converter" />
           </div>
         </div>
       </div>
 
       <div className="project-card">
-        <h2 className="project-title">Blood Donation Management System</h2>
+        <h2 className="project-title">Artistry</h2>
         <div className="project-content">
           <div className="project-description">
             <p>
-              This web application streamlines the process of managing blood donations and inventory in hospitals and blood banks.
-              Admins can register donors, monitor blood availability by type, and view patient requests in real-time.
-              It has a secure login system, dynamic tables, and alerts for low inventory levels.
-              The UI is clean, intuitive, and responsive with clear call-to-actions for all users.
-              Developed using core PHP and MySQL, with structured backend logic for scalability.
-              Ideal for small clinics or NGOs to digitally manage blood drives and donations.
+            Artistry is a Laravel-based e-commerce platform dedicated to showcasing and selling diverse styles of paintings from artists around the world. Unlike traditional e-commerce sites, Artistry focuses exclusively on the art market, offering a curated collection of artwork at various price points. The platform provides a smooth browsing, purchasing, and user experience tailored for art enthusiasts and collectors.
             </p>
-            <p><strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS</p>
+            <p><strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS, Laravel FrameWork</p>
             <div className="project-buttons">
-              <a href="https://github.com/Manikantadangeti89/blood-donation-management-system" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+              <a href="https://github.com/Gopi-Kumar18/Artistry" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
               <a href="#" className="btn">View Live</a>
             </div>
           </div>
           <div className="project-image">
-            <img src={bloodImg} alt="Blood Donation System" />
+            <img src={Artistry} alt="Artistry Paintings" />
           </div>
         </div>
       </div>
 
       <div className="project-card">
-        <h2 className="project-title">FindURNest – Rental Booking Website</h2>
+        <h2 className="project-title">TripNest - A Website for Best Tourism</h2>
         <div className="project-content">
           <div className="project-description">
             <p>
-              A fully functional rental booking website allowing users to discover and reserve properties across different locations.
-              Includes user authentication, property filtering, booking confirmations, and owner dashboards.
-              Built with modern UI/UX principles ensuring ease of navigation and responsiveness on all devices.
-              Utilizes RESTful APIs to handle backend operations like user booking, listings, and feedback.
-              Clean database structure to manage users, listings, and booking history with MongoDB.
-              An ideal project to showcase full-stack proficiency using Node.js, Express, and MongoDB.
+            TripNest is a responsive travel website built using React, HTML, CSS, and Bootstrap. The platform showcases a variety of tourism packages, helping users explore and book their ideal travel experiences. It highlights attractive pricing and frequently features unbeatable deals on popular destinations, making travel both exciting and budget-friendly.
             </p>
             <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
             <div className="project-buttons">
-              <a href="https://github.com/Manikantadangeti89/FindURNest" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
+              <a href="https://github.com/Gopi-Kumar18/TripNest_Tourism_App" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
               <a href="#" className="btn">View Live</a>
             </div>
           </div>
           <div className="project-image">
-            <img src={rentalImg} alt="FindURNest" />
+            <img src={TripNest} alt="TripNest" />
           </div>
         </div>
       </div>

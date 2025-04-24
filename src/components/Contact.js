@@ -12,7 +12,7 @@ const Contact = () => {
           <FaPhone className="icon" />
           <div>
             <h3>Phone</h3>
-            <p>+91 83412 19041</p>
+            <p>+91 63009 65097</p>
           </div>
         </div>
 
@@ -20,7 +20,7 @@ const Contact = () => {
           <FaEnvelope className="icon" />
           <div>
             <h3>Email</h3>
-            <p>manikantadangeti89@gmail.com</p>
+            <p>gopi22328@gmail.com</p>
           </div>
         </div>
 
@@ -29,11 +29,11 @@ const Contact = () => {
           <div>
             <h3>LinkedIn</h3>
             <a
-              href="https://www.linkedin.com/in/manikantadangeti/"
+              href="https://www.linkedin.com/in/gopi-k18/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/in/manikantadangeti
+              https://www.linkedin.com/in/gopi-k18/
             </a>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Contact = () => {
         <h2>Send Me a Message</h2>
         <form
           className="contact-form"
-          action="mailto:manikanta@example.com"
+          action="mailto:gopi@example.com"
           method="post"
           encType="text/plain"
         >
