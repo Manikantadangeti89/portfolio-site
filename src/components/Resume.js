@@ -8,16 +8,16 @@ const Resume = () => {
 
       <div className="section-header">
         <h2 className="section-title">Education</h2>
-        <a href={`${process.env.PUBLIC_URL}/Manikanta_Dangeti.pdf`} download className="download-btn">
+        <a href={`${process.env.PUBLIC_URL}/Gopi_k.pdf`} download className="download-btn">
           Download CV
         </a>
       </div>
       <div className="resume-section">
         <div className="resume-card">
-          <h3>2021 - 2025</h3>
+          <h3>2023 - 2026</h3>
           <p><strong>B.Tech in Computer Science & Engineering</strong></p>
           <p>Lovely Professional University, Phagwara</p>
-          <p>CGPA: 7.6/10</p>
+          <p>CGPA: 6.93/10</p>
         </div>
       </div>
 
@@ -26,9 +26,9 @@ const Resume = () => {
         <div className="resume-card">
           <ul>
             <li><strong>Languages:</strong> Java, C++, JavaScript, HTML, CSS, PHP</li>
-            <li><strong>Frameworks:</strong> React, Express</li>
+            <li><strong>Frameworks:</strong> React, Express, BootStrap, SpringBoot(Basic)</li>
             <li><strong>Databases:</strong> MongoDB, MySQL</li>
-            <li><strong>Tools & Platforms:</strong> Node.js, Git, GitHub, Figma</li>
+            <li><strong>Tools & Platforms:</strong> Git, GitHub, Figma, Docker, Jenkins</li>
           </ul>
         </div>
       </div>
@@ -37,8 +37,8 @@ const Resume = () => {
         <h2 className="section-title">Projects</h2>
         <div className="resume-card">
           <ul>
-            <li><strong>Mom's Note – Recipe Sharing Website:</strong> React, MongoDB</li>
-            <li><strong>Blood Donation Management System:</strong> PHP, MySQL</li>
+            <li><strong>DocSwitch - File Converter Website:</strong> React, MongoDB</li>
+            <li><strong>Artistry - Paintings Portals website:</strong> PHP, MySQL</li>
             <li><strong>FindURNest – Online Rental Booking:</strong> MERN Stack</li>
           </ul>
         </div>
@@ -56,9 +56,9 @@ const Resume = () => {
       </div>
 
       <div className="resume-section">
-        <h2 className="section-title">Competitive Programming</h2>
+        <h2 className="section-title">Problem Solving</h2>
         <div className="resume-card">
-          <p>Active on <strong>LeetCode</strong>, <strong>GeeksforGeeks Practice</strong>, and <strong>CodeChef</strong></p>
+          <p>Active on <strong>LeetCode</strong>, <strong>GeeksforGeeks Practice</strong>, and <strong>HackerRank</strong></p>
         </div>
       </div>
     </div>

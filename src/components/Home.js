@@ -8,7 +8,7 @@ const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
   
-  const roles = ['Full Stack Developer 💻', 'Problem Solver 🧠', 'Tech Enthusiast 🚀'];
+  const roles = ['Full Stack Developer 💻', 'Problem Solver 🧠', 'Devops Enthusiast 🚀'];
   
   useEffect(() => {
     const handleType = () => {
@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-left">
-        <h1>Hi there,<br />I am <span className="highlight">ManiKanta Dangeti</span></h1>
+        <h1>Hi,<br />I am <span className="highlight">Gopi Kumar</span></h1>
         <div className="dynamic-text">
           <span className="typing">{text}</span>
           <span className="cursor">|</span>

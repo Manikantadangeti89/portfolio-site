@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/Skills.css";
-import javaImg from '../assets/images/java.jpg';
-import cppImg from '../assets/images/cpp.jpg';
+import Java from '../assets/images/Java.png';
+import cppImg from '../assets/images/CPP.png';
 import htmlImg from '../assets/images/html.png';
 import cssImg from '../assets/images/css.png';
-import jsImg from '../assets/images/JavaScript.png';
+import jsImg from '../assets/images/js.png';
 import reactImg from '../assets/images/react.png';
-import nodejsImg from '../assets/images/nodejs.jpg';
+import nodejsImg from '../assets/images/nodejs.png';
 import expressImg from '../assets/images/express.png';
 import phpImg from '../assets/images/php.svg';
 import mysqlImg from '../assets/images/mysql.png';
@@ -22,7 +22,7 @@ const Skills = () => {
         <div className="skill-category">
           <h2>Programming Languages</h2>
           <div className="skill-icons">
-            <img src={javaImg} alt="Java" />
+            <img src={Java} alt="Java" />
             <img src={cppImg} alt="C++" />
           </div>
         </div>
