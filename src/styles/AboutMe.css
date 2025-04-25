@@ -30,7 +30,9 @@
   
   .about-right h1 {
     font-size: 36px;
-    color: #fbb034;
+    background: linear-gradient(90deg, #007cf0, #7928ca, #ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
   }
   

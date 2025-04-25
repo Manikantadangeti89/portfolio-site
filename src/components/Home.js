@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Home.css";
-import HomeImg from '../assets/images/home1.png';
+import HomeImg from '../assets/images/home.png';
 
 const Home = () => {
   const [text, setText] = useState('');
@@ -8,7 +8,7 @@ const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
   
-  const roles = ['Full Stack Developer 💻', 'Problem Solver 🧠', 'Devops Enthusiast 🚀'];
+  const roles = ['Full Stack Developer 💻', 'Devops Enthusiast 🚀'];
   
   useEffect(() => {
     const handleType = () => {
