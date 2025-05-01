@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Achievement.css";
 import LeetCode from '../assets/Achievements/LeetCode_100days.png';
 import CodeChef from '../assets/Achievements/CodeChefBadge50days.png';
+import LeetCode2025 from '../assets/Achievements/LeetCode_100days_2025.png'
 
 const Achievement = () => {
   return (
@@ -49,6 +50,21 @@ const Achievement = () => {
             continuous coding streak. This achievement highlights discipline,
             daily commitment, and sustained engagement in competitive programming
             challenges.
+          </p>
+        </div>
+      </div>
+
+      <div className="achievement-card">
+        <div className="achievement-image">
+          <img src={LeetCode2025} alt="CodeChef Streak" />
+        </div>
+        <div className="achievement-text">
+          <h2>LeetCode 100 Days Badge – 2025</h2>
+          <p>
+          Achieved the LeetCode 100 Days Badge in 2025 
+          for solving coding problems consistently for 100 consecutive days. 
+          Ranked among the top performers globally, reflecting continuous growth, 
+          persistence, and advanced problem-solving skills.
           </p>
         </div>
       </div>
