@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Achievement.css";
 import LeetCode from '../assets/Achievements/LeetCode_100days.png';
-import CodeChef from '../assets/Achievements/CodeChefBadge50days.png';
+import CodeChef from '../assets/Achievements/CodeChefBadge.png';
 import LeetCode2025 from '../assets/Achievements/LeetCode_100days_2025.png'
 
 const Achievement = () => {
@@ -44,12 +44,11 @@ const Achievement = () => {
           <img src={CodeChef} alt="CodeChef Streak" />
         </div>
         <div className="achievement-text">
-          <h2>CodeChef Gold Streak – 50 Days</h2>
+          <h2>CodeChef Diamond Streak – 100 Days</h2>
           <p>
-            Awarded the Gold Streak Badge by CodeChef for maintaining a 50-day
-            continuous coding streak. This achievement highlights discipline,
-            daily commitment, and sustained engagement in competitive programming
-            challenges.
+            Earned the Diamond Streak Badge by CodeChef for completing a 100-day continuous
+            coding streak. This milestone showcases exceptional consistency, dedication,
+            and a strong commitment to daily problem-solving in competitive programming.
           </p>
         </div>
       </div>
