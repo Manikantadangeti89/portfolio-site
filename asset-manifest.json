@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.1111465b.css",
-    "main.js": "/portfolio-site/static/js/main.e5d34384.js",
+    "main.js": "/portfolio-site/static/js/main.d812c8f8.js",
     "static/media/home1.png": "/portfolio-site/static/media/home1.59dfc350b6bb50db0dfe.png",
     "static/media/MyImage.jpg": "/portfolio-site/static/media/MyImage.e7cb990382372abfed2b.jpg",
     "static/media/LeetCode_100days_2025.png": "/portfolio-site/static/media/LeetCode_100days_2025.4fefad0a0b3ca5dae816.png",
@@ -11,8 +11,8 @@
     "static/media/Nodejs.png": "/portfolio-site/static/media/Nodejs.7f6feb2ae5fa37a0f592.png",
     "static/media/CloudComputing.png": "/portfolio-site/static/media/CloudComputing.7ebcf827479f47d83b1b.png",
     "static/media/JavaScript.png": "/portfolio-site/static/media/JavaScript.b35b06ee43eccfec3018.png",
-    "static/media/CodeChefBadge50days.png": "/portfolio-site/static/media/CodeChefBadge50days.8d2096b53fd57b4d58f6.png",
     "static/media/express.png": "/portfolio-site/static/media/express.2e461f017dc930af9f03.png",
+    "static/media/CodeChefBadge.png": "/portfolio-site/static/media/CodeChefBadge.c4ecaf16a239de572381.png",
     "static/media/findUrNest2.jpg": "/portfolio-site/static/media/findUrNest2.51259b194ef4b1308120.jpg",
     "static/media/DSA.png": "/portfolio-site/static/media/DSA.9fd2a5e5d53086b0ff0d.png",
     "static/media/momsnote.avif": "/portfolio-site/static/media/momsnote.2f25e1dcc7fdbf3cf37b.avif",
@@ -25,10 +25,10 @@
     "static/media/mongodb.png": "/portfolio-site/static/media/mongodb.495096f3c71200bb00ac.png",
     "index.html": "/portfolio-site/index.html",
     "main.1111465b.css.map": "/portfolio-site/static/css/main.1111465b.css.map",
-    "main.e5d34384.js.map": "/portfolio-site/static/js/main.e5d34384.js.map"
+    "main.d812c8f8.js.map": "/portfolio-site/static/js/main.d812c8f8.js.map"
   },
   "entrypoints": [
     "static/css/main.1111465b.css",
-    "static/js/main.e5d34384.js"
+    "static/js/main.d812c8f8.js"
   ]
 }
